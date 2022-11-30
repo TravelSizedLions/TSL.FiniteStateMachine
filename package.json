@@ -1,8 +1,8 @@
 {
   "name": "com.tsl.finitestatemachine",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Finite State Machine code intended for player character development",
-  "displayName": "FiniteStateMachine",
+  "displayName": "TSL FiniteStateMachine",
   "hideInEditor": false,
   "type": "library",
   "gitDependencies": {
