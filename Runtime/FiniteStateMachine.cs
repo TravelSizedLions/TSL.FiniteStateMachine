@@ -302,6 +302,13 @@ namespace TSL.FiniteStateMachine {
     /// </summary>
     /// <param name="name">The name of the animation trigger.</param>
     public void SetAnimParam(string name) {
+      if (string.IsNullOrEmpty(name)) {
+        Debug.LogWarning(string.Format("Please set {0}.AnimParam to the name of the animation parameter for this state in the behavior's Awake() method.", this.GetType()));
+        return;
+      }
+
+      // Debug.Log("AnimParam: " + AnimParam);
+
       if (animator.runtimeAnimatorController != null) {
         foreach (var param in animator.parameters) {
           animator.ResetTrigger(param.name);

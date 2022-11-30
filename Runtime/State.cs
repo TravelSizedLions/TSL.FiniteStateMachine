@@ -193,13 +193,6 @@ namespace TSL.FiniteStateMachine {
     /// </summary>
     public void EnterState() {
       enabled = true;
-
-      if (string.IsNullOrEmpty(AnimParam)) {
-        Debug.LogWarning(string.Format("Please set {0}.AnimParam to the name of the animation parameter for this state in the behavior's Awake() method.", this.GetType()));
-        return;
-      }
-
-      // Debug.Log(AnimParam);
       FSM.SetAnimParam(AnimParam);
       exited = false;
       OnStateEnterGeneral();
