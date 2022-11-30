@@ -1,0 +1,17 @@
+{
+    "name": "TSL.FiniteStateMachine",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a8776822000e5b64895e1975751585a0",
+        "GUID:4db1229c02f3f629bdd928353859c2b3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

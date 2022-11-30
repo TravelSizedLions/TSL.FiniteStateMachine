@@ -1,0 +1,12 @@
+{
+  "name": "com.tsl.finitestatemachine",
+  "version": "0.0.1",
+  "description": "Finite State Machine code intended for player character development",
+  "displayName": "FiniteStateMachine",
+  "hideInEditor": false,
+  "type": "library",
+  "dependencies": {
+    "com.tsl.odin-pack": "https://github.com/TheHumanBuilders/Odin.git",
+    "com.tsl.toolkit": "https://github.com/TheHumanBuilders/TSL.Toolkit.git"
+  }
+}
