@@ -6,21 +6,26 @@ Machine?](https://statecharts.github.io/what-is-a-state-machine.html#:~:text=An%
 * [What's the "State Pattern?"](https://refactoring.guru/design-patterns/state)
 
 
-## The FiniteStateMachine Class
+## The FSM Class
 This class houses the state graph as well as the engine that runs it. Fortunately, leveraging the state machine inside another Monobehaviour is as simple as this:
 
 ```C#
+
+public class StartState : State {
+  // Add state specific details, etc. Could be an idle state, sleeping state, etc.
+}
+
 /// <summary>
 /// This could be a player character, enemy, NPC, or boss battle.
 /// </summary>
 public class Agent : MonoBehaviour {
 
-  private FiniteStateMachine FSM;
+  private FSM fsm;
 
   private void Start() {
-    FSM = AddComponent<FiniteStateMachine>();
+    fsm = AddComponent<FiniteStateMachine>();
     State startState = AddComponent<StartState>();
-    FSM.StartMachine(startState);
+    fsm.StartMachine(startState);
     
     // The finite state machine will run independently 
     // from this point forward.
