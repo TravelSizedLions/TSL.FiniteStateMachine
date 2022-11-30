@@ -1,5 +1,5 @@
 # HumanBuilders
-A framework for building agents that require a State Machine. To see how it's used, check out the [Player Character](https://github.com/hiltonjp/journey/tree/master/Assets/Production/0_Code/HumanBuilders/Characters/Player).
+A framework for building agents that require a State Machine. To see how it's used, check out this real life [Player Character](https://github.com/hiltonjp/journey/tree/master/Assets/Production/0_Code/HumanBuilders/Characters/Player) example.
 
 * [What's a State
 Machine?](https://statecharts.github.io/what-is-a-state-machine.html#:~:text=An%20abstract%20state%20machine%20is,enters%20or%20exits%20that%20state.)
