@@ -307,7 +307,7 @@ namespace TSL.FiniteStateMachine {
         return;
       }
 
-      // Debug.Log("AnimParam: " + AnimParam);
+      // Debug.Log("AnimParam: " + name); // uncomment this to see state changes
 
       if (animator.runtimeAnimatorController != null) {
         foreach (var param in animator.parameters) {
