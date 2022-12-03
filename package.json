@@ -7,6 +7,6 @@
   "type": "library",
   "gitDependencies": {
     "com.tsl.odin-pack": "https://github.com/TheHumanBuilders/Odin.git",
-    "com.tsl.toolkit": "https://github.com/TheHumanBuilders/TSL.Toolkit.git"
+    "com.tsl.toolkit": "https://github.com/TheHumanBuilders/TSL.Toolkit.git#v0.0.11"
   }
 }
