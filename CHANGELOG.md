@@ -1,5 +1,9 @@
 ## **November 30th, 2022 - v0.0.4**
 
++ Update to using TSL Toolkit v0.0.12
+
+## **November 30th, 2022 - v0.0.4**
+
 + Rename FiniteStateMachine.cs to FSM.cs to allow FSM to be used as component.
 
 ## **November 30th, 2022 - v0.0.3**
