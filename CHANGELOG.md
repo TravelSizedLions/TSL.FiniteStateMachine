@@ -1,3 +1,6 @@
+## **April 19th, 2023 - v1.0.5**
++ Made it so that ChangeToState() is a no-op if the State is not currently enabled.
+
 ## **November 30th, 2022 - v0.0.4**
 
 + Update to using TSL Toolkit v0.0.12

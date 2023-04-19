@@ -1,6 +1,6 @@
 {
   "name": "com.tsl.finitestatemachine",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Finite State Machine code intended for player character development",
   "displayName": "TSL FiniteStateMachine",
   "hideInEditor": false,

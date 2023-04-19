@@ -210,9 +210,14 @@ namespace TSL.FiniteStateMachine {
     }
 
     /// <summary>
-    /// Change state. The old state behavior will be detached from the player after this call.
+    /// Change state. The old state behavior will be detached from the player
+    /// after this call. If the script calling this is disabled, it's a no-op.
     /// </summary>
     public void ChangeToState<S>() where S : State {
+      if (!enabled) {
+        return;
+      }
+
       if (FSM != null && FSM.Running) {
         S state;
 
